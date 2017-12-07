@@ -34,6 +34,11 @@
 			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
 		},
 		{
+			"ImportPath": "github.com/astaxie/beego/orm",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
 			"ImportPath": "github.com/astaxie/beego/session",
 			"Comment": "v1.9.0-6-gc5118e9",
 			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
@@ -47,6 +52,29 @@
 			"ImportPath": "github.com/astaxie/beego/utils",
 			"Comment": "v1.9.0-6-gc5118e9",
 			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Comment": "v1.2.0",
+			"Rev": "34a326de1fea52965fa5ad664d3fc7163dd4b0a1"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Comment": "v1.2.0",
+			"Rev": "34a326de1fea52965fa5ad664d3fc7163dd4b0a1"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.3-31-g26471af",
+			"Rev": "26471af196a17ee75a22e6481b5a5897fb16b081"
+		},
+		{
+			"ImportPath": "gitlab.source3g.com/game/gocache",
+			"Rev": "13a54e3f93dd6f7195bf5003acd6cd86dad43b4e"
+		},
+		{
+			"ImportPath": "gitlab.source3g.com/game/goconfig",
+			"Rev": "9795a546f9ea9abb32094b8bb12bf5fc9143ceab"
 		},
 		{
 			"ImportPath": "gitlab.source3g.com/game/gorunmanhttp/httpin",
