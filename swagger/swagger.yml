@@ -1,0 +1,19 @@
+swagger: "2.0"
+info: {}
+basePath: /v1
+paths:
+  /user/dynamic:
+    get:
+      tags:
+      - user
+      description: 活动pv统计
+      operationId: UserController.活动pv统计
+      responses:
+        "200":
+          schema:
+            $ref: '#/definitions/.Resp'
+        "500":
+          description: 服务器错误
+definitions:
+  .Resp:
+    type: object

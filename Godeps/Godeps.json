@@ -1,0 +1,57 @@
+{
+	"ImportPath": "gofamily",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/astaxie/beego",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/config",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context/param",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/grace",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/logs",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/toolbox",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/utils",
+			"Comment": "v1.9.0-6-gc5118e9",
+			"Rev": "c5118e9535f237996bae7c7baebe4ed4247cb2c6"
+		},
+		{
+			"ImportPath": "gitlab.source3g.com/game/gorunmanhttp/httpin",
+			"Comment": "v2.0.5-master-ms-1-gadbffba",
+			"Rev": "adbffbae584015b168c4841f33a789ef32511461"
+		}
+	]
+}

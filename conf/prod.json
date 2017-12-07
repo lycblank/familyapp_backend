@@ -1,0 +1,55 @@
+{
+	"redis": {
+		"network": "tcp",
+		"address": "10.44.17.179:6379",
+		"password": "987ce578ea1dbd85793d95ec4036ffb7",
+		"db": "0",
+		"connecttimeout": 5,
+		"readtimeout": 5,
+		"writetimeout": 5,
+		"maxactive": 10000,
+		"maxidle": 10000,
+		"idletimeout": 120,
+		"wait": true
+	},
+	"mongodb": {
+		"host": "127.0.0.1:27017"
+	},
+	"mysql": {
+    		"username": "gametest",
+    		"password": "GSTF_game_1219",
+    		"host": "10.44.17.179",
+    		"port": "3306",
+    		"db_name": "wcb_game",
+    		"charset": "utf8mb4",
+    		"max_idle_conns": 10000,
+    		"max_open_conns": 10000
+	},
+	"sms": {
+    		"url": "http://intra.platform.source3g.com/sms/commonSend",
+    		"template_code": "SMS_99115028",
+    		"prize": "一张国色天香门票",
+    		"expired": "10月12日"
+	},
+	"nhmhd_sms": {
+    		"url": "http://intra.platform.source3g.com/sms/commonSend",
+    		"template_code": "SMS_105605018",
+    		"prize": "2017年南湖梦幻岛万圣猛鬼嘉年华夜场门票一张",
+    		"sms_code": "为手机号，请到成都南湖梦幻岛南大门处领取，领取时间：10.25-11.12，期待您的到来，给您一个惊喜的万圣节，夜场开放时间为10.28-10.31、11.3-11.5、11.10-11.12，咨询热线：028-61906688",
+    		"expired": "11月12日",
+    		"sms_count": 99999999
+	},
+	"lrdc_sms": {
+    		"url": "http://intra.platform.source3g.com/sms/commonSend",
+    		"template_code": "SMS_106910034",
+    		"sms_count": 99999999
+	},
+	"ms_sms": {
+    		"url": "http://intra.platform.source3g.com/sms/commonSend",
+    		"template_code": "SMS_109445290",
+    		"sms_count": 99999999
+	},
+	"activity": {
+    		"flow_count": 1000
+	}
+}
