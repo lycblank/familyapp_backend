@@ -75,11 +75,6 @@
 		{
 			"ImportPath": "gitlab.source3g.com/game/goconfig",
 			"Rev": "9795a546f9ea9abb32094b8bb12bf5fc9143ceab"
-		},
-		{
-			"ImportPath": "gitlab.source3g.com/game/gorunmanhttp/httpin",
-			"Comment": "v2.0.5-master-ms-1-gadbffba",
-			"Rev": "adbffbae584015b168c4841f33a789ef32511461"
 		}
 	]
 }

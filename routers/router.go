@@ -8,10 +8,11 @@ import (
 
 	familycache "gofamily/cache"
 
+	"gofamily/httpin"
+
 	"github.com/astaxie/beego/context"
 	"github.com/garyburd/redigo/redis"
 	cache "gitlab.source3g.com/game/gocache"
-	"gitlab.source3g.com/game/gorunmanhttp/httpin"
 
 	"github.com/astaxie/beego"
 )

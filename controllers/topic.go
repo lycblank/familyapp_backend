@@ -6,8 +6,9 @@ import (
 	"gofamily/models/topic"
 	"gofamily/params"
 
+	"gofamily/httpin"
+
 	"github.com/astaxie/beego"
-	"gitlab.source3g.com/game/gorunmanhttp/httpin"
 )
 
 type TopicController struct {

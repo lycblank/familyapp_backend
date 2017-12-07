@@ -6,13 +6,14 @@ import (
 	_ "gofamily/routers"
 	"os"
 
+	"gofamily/httpin"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 	cache "gitlab.source3g.com/game/gocache"
 	config "gitlab.source3g.com/game/goconfig"
-	"gitlab.source3g.com/game/gorunmanhttp/httpin"
 )
 
 var logger = logs.NewLogger(10000)

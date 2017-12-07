@@ -6,8 +6,9 @@ import (
 	"gofamily/models/user"
 	"gofamily/params"
 
+	"gofamily/httpin"
+
 	"github.com/astaxie/beego"
-	"gitlab.source3g.com/game/gorunmanhttp/httpin"
 )
 
 type UserController struct {
