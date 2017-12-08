@@ -1,7 +1,7 @@
 # 编译
 FROM golang:1.8.3 as builder
 ADD ./ /go/src/gofamily/
-RUN set -ex && cd /go/src/gofamily && CGO_ENABLED=0 go build -v -a -ldflags '-extldflags "-static"' -o gofamily 
+RUN set -ex && cd /go/src/gofamily && CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o gofamily .
 
 # 打包  
 FROM scratch
