@@ -4,7 +4,7 @@ ADD ./ /go/src/gofamily/
 RUN set -ex && cd /go/src/gofamily && CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o gofamily .
 
 # 打包  
-FROM scratch
+FROM busybox
 MAINTAINER blank <461961306@qq.com>
 WORKDIR /go
 COPY --from=builder /go/src/gofamily/gofamily /go/gofamily
