@@ -15,7 +15,7 @@
 	"mysql": {
     		"username": "blank",
     		"password": "blanklongyongchun",
-    		"host": "192.168.1.98",
+    		"host": "10.42.0.101",
     		"port": "3306",
     		"db_name": "family",
     		"charset": "utf8mb4",
