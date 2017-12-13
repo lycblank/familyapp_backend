@@ -1,7 +1,7 @@
 {
 	"redis": {
 		"network": "tcp",
-		"address": "192.168.1.98:6379",
+		"address": "10.42.0.102:6379",
 		"password": "",
 		"db": "0",
 		"connecttimeout": 5,
